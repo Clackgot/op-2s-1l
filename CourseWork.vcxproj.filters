@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CourseWork.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Pharmacy.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -25,6 +22,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Gui.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Op_2_1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
