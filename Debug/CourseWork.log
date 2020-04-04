@@ -1,8 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CourseWork.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Op_2_1.cpp
-  Drug.cpp
-  Gui.cpp
-  Pharmacy.cpp
-C:\Users\Anicate\source\repos\op-2s-1l\Pharmacy.cpp(86,20): warning C4018: <: несоответствие типов со знаком и без знака
-  Создание кода...
-  CourseWork.vcxproj -> C:\Users\Anicate\source\repos\op-2s-1l\Debug\Op_2_1.exe
