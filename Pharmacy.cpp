@@ -6,6 +6,7 @@
 #include <iomanip>
 #include <string>
 #include <direct.h>
+
 using namespace std;
 //Вернуть название аптеки
 std::string Pharmacy::GetPharmName()
@@ -293,10 +294,15 @@ Pharmacy::Pharmacy(std::string name, int count)
 {
 	char buff[66];
 	char *temp = _getcwd(buff, sizeof(buff));
-	std::string dataBase = buff;
-	for (auto& it : dataBase)
+	dataBase = buff;
+	dataBase += "\\db.txt";
+	for (size_t i = 0; i < dataBase.size(); i++)
 	{
-		if (it == '/') it = '\\';
+		if (dataBase[i] == '\\') 
+		{
+			dataBase.insert(i, "\\");
+			i++;
+		}
 	}
 	Pharmacy::namePharm = name;
 	Pharmacy::countPharm = count;

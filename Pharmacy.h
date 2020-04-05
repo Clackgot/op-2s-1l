@@ -16,7 +16,8 @@ private:
 	//Количество аптек в сети
 	int countPharm;
 	//Путь к БД
-	std::string dataBase = "C:\\Users\\Anicate\\source\\repos\\CourseWork\\db.txt";
+	//std::string dataBase = "C:\\Users\\Anicate\\source\\repos\\CourseWork\\db.txt";
+	std::string dataBase = "";
 	//Инициализация массива строк типов препаратов
 	static std::string drug_type[15];
 	//Вектор препаратов аптеки
